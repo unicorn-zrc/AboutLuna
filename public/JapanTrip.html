@@ -68,10 +68,21 @@
       border: none;
       width: 40%;
     }
+
+    #nara{
+      display:flex;
+      justify-content: space-between;
+      flex: 1;
+      margin-left: 10px;
+      
+    }
     .uji-button{
         display: flex;
         justify-content: flex-end;
         margin-bottom: 20px;
+        flex:1;
+        margin-right: 10px;
+        gap: 5px;
     }
     .uji{
       padding: 10px;
@@ -141,7 +152,6 @@
     <div><h2>- 大阪 -</h2></div>
     <div>
         <h2>Day1</h2>
-        <p>機場 -> 機場outlet -> 心齋橋&道頓堀 -> 難波八阪神社</p>
     </div>
     <div class="trip-detail">
       <div class="trip-plan">
@@ -183,15 +193,14 @@
 
     <div>
         <h2>Day2</h2>
-        <p>梅田藍天大廈 -> 黑門市場 </p>
     </div>
     <div class="trip-detail">
       <div class="trip-plan">
-        <div class="trip-title">梅田藍天大廈</div>
-        <img src="../pic/梅田藍天大廈.jpg" alt="梅田藍天大廈" />
-        <div class="trip-features"><li>看夜景</li></div>
+        <div class="trip-title">大阪城公園</div>
+        <img src="../pic/大阪城公園.jpg" alt="大阪城公園" />
+        <div class="trip-features"><li>看風景</li></div>
         <div class="detail">
-            <button class="info-button"><a href="https://mimihan.tw/kuchu-teien/">詳細資訊</a></button>
+            <button class="info-button"><a href="https://kenji.life/jp-osakapark/">詳細資訊</a></button>
         </div>
       </div>
 
@@ -203,6 +212,26 @@
             <button class="info-button"><a href="https://mimihan.tw/kuromon-market/">詳細資訊</a></button>
         </div>
       </div>
+
+      <div class="trip-plan">
+        <div class="trip-title">天神橋筋商店街</div>
+        <img src="../pic/天神橋筋商店街.jpg" alt="天神橋筋商店街" />
+        <div class="trip-features"><li>吃東西</li></div>
+        <div class="detail">
+            <button class="info-button"><a href="https://mimihan.tw/tenjin-street/">詳細資訊</a></button>
+        </div>
+      </div>
+
+      <div class="trip-plan">
+        <div class="trip-title">梅田藍天大廈</div>
+        <img src="../pic/梅田藍天大廈.jpg" alt="梅田藍天大廈" />
+        <div class="trip-features"><li>看夜景</li></div>
+        <div class="detail">
+            <button class="info-button"><a href="https://mimihan.tw/kuchu-teien/">詳細資訊</a></button>
+        </div>
+      </div>
+
+      
     </div>
 
     <div>
@@ -223,7 +252,6 @@
     
     <div>
         <h2>Day4</h2>
-        <p>阿倍野 -> 通天閣&新世界 -> 以下在選個景點</p>
     </div>
     <div class="trip-detail">
       <div class="trip-plan">
@@ -254,15 +282,6 @@
       </div>
 
       <div class="trip-plan">
-        <div class="trip-title">唐吉軻德</div>
-        <img src="../pic/唐吉軻德.jpg" alt="唐吉軻德" />
-        <div class="trip-features"><li>好像很有名</li></div>
-        <div class="detail">
-            <button class="info-button"><a href="https://mimihan.tw/osaka-mega-donki/">詳細資訊</a></button>
-        </div>
-      </div>
-
-      <div class="trip-plan">
         <div class="trip-title">四天王寺</div>
         <img src="../pic/四天王寺.jpg" alt="四天王寺" />
         <div class="trip-features"><li>寺廟，好像是古蹟(?</li></div>
@@ -270,14 +289,7 @@
             <button class="info-button"><a href="https://metronine.osaka/tw/article_tour/20210709-the-seven-wonders/">詳細資訊</a></button>
         </div>
       </div>
-      <div class="trip-plan">
-        <div class="trip-title">大阪城公園</div>
-        <img src="../pic/大阪城公園.jpg" alt="大阪城公園" />
-        <div class="trip-features"><li>看風景</li></div>
-        <div class="detail">
-            <button class="info-button"><a href="https://kenji.life/jp-osakapark/">詳細資訊</a></button>
-        </div>
-      </div>
+      
 
       <div class="trip-plan">
         <div class="trip-title">法善寺橫丁</div>
@@ -285,15 +297,6 @@
         <div class="trip-features"><li>在難波，有街可逛</li></div>
         <div class="detail">
             <button class="info-button"><a href="https://livejapan.com/zh-tw/in-kansai/in-pref-osaka/in-namba_dotonbori_shinsaibashi/article-a2000351/">詳細資訊</a></button>
-        </div>
-      </div>
-
-      <div class="trip-plan">
-        <div class="trip-title">大阪天滿宮</div>
-        <img src="../pic/大阪天滿宮.jpg" alt="大阪天滿宮" />
-        <div class="trip-features"><li>一座寺廟，附近有天神橋筋商店街</li></div>
-        <div class="detail">
-            <button class="info-button"><a href="https://tw.wamazing.com/media/article/a-2576/">詳細資訊</a></button>
         </div>
       </div>
     </div>
@@ -339,72 +342,59 @@
           </div>
         </div>
 
-    <div><h2>- 宇治 -</h2></div>
+    <div><h2>- 奈良 -</h2></div>
     <div>
         <h2>Day6</h2>
-        <p>抹茶之鄉～如果要現吃抹茶可以來這</p>
-        <p>兩個方案:</p>
-        <p>1. 從大阪出發。車程1小時，大阪到宇治的交通<a id="explain" href="https://kimiyo.tw/uji-transportation/">看這裡</a></p>
-        <p>2. 前晚住京都，JR或京阪電車20~30分鐘到</p>
+        
     </div>
 
-    <div class="uji-button">
-        <button class="uji"><a href="https://osaka.letsgojp.com/archives/491869/">必吃1</a></button>
-        <button class="uji"><a href="https://monicalife.com/world-trip/kyoto-osaka/%E5%AE%87%E6%B2%BB%E6%99%AF%E9%BB%9E%E7%BE%8E%E9%A3%9F%E5%AE%87%E6%B2%BB%E6%8E%A8%E8%96%A6%E8%A1%8C%E7%A8%8B%E6%99%AF%E9%BB%9E/">必吃2</a></button>
-        <button class="uji"><a href="https://www.kkday.com/zh-tw/blog/12310/asia-japan-kyoto-uji-detail-city-guide">必吃3</a></button>
+    <div id="nara">
+      <div>
+        <p>去看鹿!</p>
+        <p>其他替換行程: 1. M!Nara百貨 2.興福寺 3.若草山</p>
+      </div>
+      
+      <div class="uji-button">
+        <button class="uji"><a href="https://www.kkday.com/zh-tw/blog/167690/asia-japan-nara-must-visit">推薦1</a></button>
+        <button class="uji"><a href="https://tw.wamazing.com/media/article/a-1775/">推薦2</a></button>
+        <button class="uji"><a href="https://mimihan.tw/nara-travel/">推薦3</a></button>
     </div>
+    </div>
+    
     <div class="trip-detail">
         <div class="trip-plan">
-          <div class="trip-title">平等院</div>
-          <img src="../pic/平等院.jpg" alt="平等院" />
-          <div class="trip-features"><li>必去古蹟</li></div>
+          <div class="trip-title">奈良公園</div>
+          <img src="../pic/奈良公園.jpg" alt="奈良公園" />
+          <div class="trip-features"><li>餵鹿</li></div>
           <div class="detail">
-              <button class="info-button"><a href="https://journey.tw/byodoin/">詳細資訊</a></button>
+              <button class="info-button"><a href="https://tw.wamazing.com/media/article/a-305/">詳細資訊</a></button>
           </div>
         </div>
   
         <div class="trip-plan">
-          <div class="trip-title">平等院表參道</div>
-          <img src="../pic/平等院表參道.jpg" alt="平等院表參道" />
-          <div class="trip-features"><li>平等院前商店街，吃抹茶!</li></div>
+          <div class="trip-title">東大寺</div>
+          <img src="../pic/東大寺.jpg" alt="東大寺" />
+          <div class="trip-features"><li>看佛</li></div>
           <div class="detail">
-              <button class="info-button"><a href="https://yiwu.com.tw/uji/">詳細資訊</a></button>
+              <button class="info-button"><a href="https://www.gltjp.com/zh-hant/article/item/20354/">詳細資訊</a></button>
           </div>
         </div>
 
         <div class="trip-plan">
-            <div class="trip-title">宇治神社</div>
-            <img src="../pic/宇治神社.jpg" alt="宇治神社" />
-            <div class="trip-features"><li>參拜 有兔子!</li></div>
+            <div class="trip-title">春日大社</div>
+            <img src="../pic/春日大社.jpg" alt="春日大社" />
+            <div class="trip-features"><li>2~8月有萬燈籠</li></div>
             <div class="detail">
-                <button class="info-button"><a href="https://tw.wamazing.com/media/article/a-842/">詳細資訊</a></button>
-            </div>
-          </div>
-
-        <div class="trip-plan">
-            <div class="trip-title">伊藤久右衛門</div>
-            <img src="../pic/伊藤久右衛門.jpg" alt="伊藤久右衛門" />
-            <div class="trip-features"><li>抹茶蕎麥麵</li></div>
-            <div class="detail">
-                <button class="info-button"><a href="https://ivy1213.pixnet.net/blog/post/44102725-%e4%bc%8a%e8%97%a4%e4%b9%85%e5%8f%b3%e8%a1%9b%e9%96%80-%28%e5%ae%87%e6%b2%bb%e6%9c%ac%e5%ba%97-%e8%8c%b6%e6%88%bf%29-%e5%a5%bd%e5%90%83%e7%9a%84">詳細資訊</a></button>
+                <button class="info-button"><a href="https://tw.wamazing.com/media/article/a-2234/">詳細資訊</a></button>
             </div>
           </div>
 
           <div class="trip-plan">
-            <div class="trip-title">中村藤吉</div>
-            <img src="../pic/中村藤吉.jpg" alt="中村藤吉" />
-            <div class="trip-features"><li>吃!</li></div>
+            <div class="trip-title">東向商店街</div>
+            <img src="../pic/東向商店街.jpg" alt="東向商店街" />
+            <div class="trip-features"><li>人氣甜點:大佛布丁</li></div>
             <div class="detail">
-                <button class="info-button"><a href="https://travelerliv.com/tokichi/">詳細資訊</a></button>
-            </div>
-          </div>
-
-          <div class="trip-plan">
-            <div class="trip-title">抹茶共和國</div>
-            <img src="../pic/抹茶共和國.jpg" alt="抹茶共和國" />
-            <div class="trip-features"><li>吃!</li></div>
-            <div class="detail">
-                <button class="info-button"><a href="https://www.japaholic.com/tw/article/detail/938724-%E6%89%93%E5%8D%A1%E5%90%8D%E5%BA%97%E3%80%8C%E6%8A%B9%E8%8C%B6%E5%85%B1%E5%92%8C%E5%9C%8B%E3%80%8D%E5%AE%87%E6%B2%BB%E6%9C%AC%E5%BA%97%E6%9C%9D%E8%81%96%E5%8E%BB%EF%BC%81%E5%A4%8F%E5%AD%A3%E9%99%90%E5%AE%9A%E6%8A%B9%E8%8C%B6%E6%AA%B8%E6%AA%AC%E8%98%87%E6%89%93%E6%B2%81%E6%B6%BC%E4%B8%8A%E5%B8%82">詳細資訊</a></button>
+                <button class="info-button"><a href="https://mimihan.tw/higashimuki/">詳細資訊</a></button>
             </div>
           </div>
       </div>
